@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thequ\source\repos\gp 1.2.4\gp 1.2.4\</FILEPATH>
+      <FILENAME>gp 1.2.4.cpp</FILENAME>
+      <LINE>3035</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>gameDev</FUNCTION>
+    <DECORATED>?gameDev@@YAXXZ</DECORATED>
+    <FUNCLINE>192</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thequ\source\repos\gp 1.2.4\gp 1.2.4\</FILEPATH>
+      <FILENAME>gp 1.2.4.cpp</FILENAME>
+      <LINE>3091</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION>
+    <FUNCTION>researchFunc</FUNCTION>
+    <DECORATED>?researchFunc@@YAXHH_NH0HHH@Z</DECORATED>
+    <FUNCLINE>3063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thequ\source\repos\gp 1.2.4\gp 1.2.4\</FILEPATH>
+      <FILENAME>gp 1.2.4.cpp</FILENAME>
+      <LINE>3150</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION>
+    <FUNCTION>researchFunc</FUNCTION>
+    <DECORATED>?researchFunc@@YAXHH_NH0HHH@Z</DECORATED>
+    <FUNCLINE>3063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
